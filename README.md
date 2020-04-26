@@ -3,7 +3,9 @@ MySQL-Research
 
 MySQL数据库源代码学习研究(包括代码注释、文档、用于代码分析的测试用例)
     # MySQL代码结构
+    
     - build: 内含有各个平台、各种编译器下进行编译的脚本。如compile-pentium-debug表示在pentium架构上进行调试编译的脚本。
+    
     - client: 客户端工具，如mysql,mysqladmin之类。
     - cmd-line-utils: readline,libedit工具。
     - config: 给aclocal使用的配置文件。
